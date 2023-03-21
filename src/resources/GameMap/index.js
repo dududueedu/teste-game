@@ -49,9 +49,9 @@ function MapRow(props) {
 
 function GameMap(props) {
 /*console.log("oi "+props.position)
-  function checkChest(position) { // verifica se há chest na posição indicada
-    const x = position[0] / SPRITE_SIZE // o x do personagem na tela, é o j do obstáculo na matriz
-    const y = position[1] / SPRITE_SIZE // o y do personagem na tela, é o i do obstáculo na matriz
+  function checkChest(position) { 
+    const x = position[0] / SPRITE_SIZE 
+    const y = position[1] / SPRITE_SIZE 
     console.log("oi", `[${x},${y}]`)
     if (props.tiles[y][x] === CHS) {
         let newTiles = props.tiles
