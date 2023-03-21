@@ -84,6 +84,7 @@ function mapStateToProps(state) {
   console.log("position-map", state.map.tiles)
   return {
     tiles: state.map.tiles,
+    position: state.player.position // aqui
   };
 }
 
